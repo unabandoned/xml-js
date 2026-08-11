@@ -24,7 +24,7 @@ function manipulateAttribute(obj) {
   return obj;
 }
 
-describe('Testing xml2js.js:', function () {
+describe('Testing xml2js.js: callbacks', function () {
 
   describe('Adding function callbacks, options = {compact: false}', function () {
 
@@ -36,7 +36,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[0].doctype) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].doctype, test.js);
           });
         }
@@ -53,7 +53,7 @@ describe('Testing xml2js.js:', function () {
           // console.log(JSON.stringify(convert.xml2js(test.xml, options)));
         });
         if (test.js.elements && test.js.elements[0].instruction) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].instruction, test.js);
             // console.log(JSON.stringify(args), '---------', test.js.elements[0].instruction);
           });
@@ -70,7 +70,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[0].cdata) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].cdata, test.js);
           });
         }
@@ -86,7 +86,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[0].comment) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].comment, test.js);
           });
         }
@@ -102,7 +102,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[0].text) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].text, test.js);
           });
         }
@@ -118,7 +118,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[0].instruction) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].name, test.js);
           });
         }
@@ -134,7 +134,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[test.js.elements.length-1].type === 'element' && !test.js.elements[test.js.elements.length-1].elements) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].name, test.js);
           });
         }
@@ -172,7 +172,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.elements && test.js.elements[test.js.elements.length-1].attributes) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.elements[test.js.elements.length-1].attributes, test.js);
           });
         }
@@ -214,7 +214,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js._doctype) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js._doctype instanceof Array ? test.js._doctype[1] : test.js._doctype, test.js);
           });
         }
@@ -241,7 +241,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js._cdata) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js._cdata instanceof Array ? test.js._cdata[1] : test.js._cdata, test.js);
           });
         }
@@ -257,7 +257,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js._comment) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js._comment instanceof Array ? test.js._comment[1] : test.js._comment, test.js);
           });
         }
@@ -273,7 +273,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.a && test.js.a._text) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.a._text, test.js.a);
           });
         }
@@ -333,7 +333,7 @@ describe('Testing xml2js.js:', function () {
           expect(convert.xml2js(test.xml, options)).toEqual(test.js);
         });
         if (test.js.a && test.js.a._attributes) {
-          it('should provide correct arguments', function () {
+          it('should provide correct arguments for ' + test.desc, function () {
             expect(args).toContain(test.js.a._attributes, test.js);
           });
         }

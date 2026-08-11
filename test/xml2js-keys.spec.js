@@ -3,7 +3,7 @@ var testItems = require('./test-items');
 
 /*global describe,it,expect*/
 
-describe('Testing xml2js.js:', function () {
+describe('Testing xml2js.js: keys', function () {
 
   describe('Changing default key names, options = {compact: false}', function () {
 

@@ -3,14 +3,5 @@
   "extends": [
     "github>unabandoned/renovate-config"
   ],
-  "forkProcessing": "enabled",
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "jasmine"
-      ],
-      "allowedVersions": "<6",
-      "description": "jasmine 6 rejects the duplicate suite/spec names xml-js's generated tests use; stay on jasmine 5 until the upstream tests are migrated."
-    }
-  ]
+  "forkProcessing": "enabled"
 }

@@ -3,7 +3,7 @@ var Script = require('vm').Script;
 
 /*global describe,it,expect*/
 
-describe('Testing js2xml.js:', function () {
+describe('Testing js2xml.js: issues', function () {
 
   describe('User reported issues:', function () {
 

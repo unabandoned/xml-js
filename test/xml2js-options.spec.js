@@ -3,7 +3,7 @@ var testItems = require('./test-items');
 
 /*global describe,it,expect*/
 
-describe('Testing xml2js.js:', function () {
+describe('Testing xml2js.js: options', function () {
 
   //var books = require('fs').readFileSync('test/fixtures/books.xml', 'utf8');
 
@@ -446,11 +446,11 @@ describe('Testing xml2js.js:', function () {
 
       var options = {compact: true, instructionHasAttributes: true};
 
-      it('Parse attributes in processing instruction', function () {
+      it('Parse attributes in processing instruction (compact)', function () {
         expect(convert.xml2js('<?go to="there"?>', options)).toEqual({"_instruction":{"go":{"_attributes":{"to":"there"}}}});
       });
 
-      it('Parse attributes in processing instruction', function () {
+      it('Parse attributes in processing instruction (non-compact)', function () {
         expect(convert.xml2js('<?go to="there"?>', {instructionHasAttributes: true})).toEqual({"elements":[{"type":"instruction","name":"go","attributes":{"to":"there"}}]});
       });
 
