@@ -59,9 +59,9 @@
     "sax": "^1.2.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "jasmine": "^5.4.0",
-    "typescript": "^5.7.2"
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
+    "jasmine": "5.13.0",
+    "typescript": "5.9.3"
   }
 }
