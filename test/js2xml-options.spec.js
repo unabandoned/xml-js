@@ -3,7 +3,7 @@ var testItems = require('./test-items');
 
 /*global describe,it,expect*/
 
-describe('Testing js2xml.js:', function () {
+describe('Testing js2xml.js: options', function () {
 
   describe('No options supplied (fallback to defaults):', function () {
 

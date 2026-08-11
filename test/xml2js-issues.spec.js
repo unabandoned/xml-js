@@ -3,7 +3,7 @@ var convert = require('../lib');
 /*eslint quotes: 0*/  // --> turn off error of strings surrounded by double quotes
 /*global describe,xdescribe,it,expect*/
 
-describe('Testing xml2js.js:', function () {
+describe('Testing xml2js.js: issues', function () {
 
   describe('User reported issues on github:', function () {
 

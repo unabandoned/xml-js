@@ -2,7 +2,7 @@ var helper = require('../bin/cli-helper');
 
 /*global describe,it,expect*/
 
-describe('Testing cli.js:', function () {
+describe('Testing cli-helper.js:', function () {
 
   describe('Getting help and parse arguments:', function () {
 
