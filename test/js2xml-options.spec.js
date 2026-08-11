@@ -351,11 +351,11 @@ describe('Testing js2xml.js:', function () {
 
     describe('improper json', function () {
 
-      try {
-        convert.json2xml('{a:', {});
-      } catch (e) {
-        e.note = 'ignore me';
-      }
+      it('throws when the json cannot be parsed', function () {
+        expect(function () {
+          convert.json2xml('{a:', {});
+        }).toThrow();
+      });
 
     });
 
