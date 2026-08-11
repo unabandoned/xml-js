@@ -62,6 +62,6 @@
     "@commitlint/cli": "21.2.1",
     "@commitlint/config-conventional": "21.2.0",
     "jasmine": "6.3.0",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   }
 }
