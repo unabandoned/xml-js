@@ -51,7 +51,7 @@
   },
   "scripts": {
     "test": "npm run test:unit && npm run test:types",
-    "test:unit": "node -r ./test/setup.js --test 'test/*.spec.js'",
+    "test:unit": "node -r ./test/setup.js --test test/*.spec.js",
     "test:types": "tsc -p ./types",
     "prepare": "git config core.hooksPath .githooks || true"
   },
