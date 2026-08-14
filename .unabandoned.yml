@@ -1,0 +1,18 @@
+schema: 1
+
+package: "@unabandoned/xml-js"
+
+upstream:
+  repo: nashwaan/xml-js
+  reason: "unmaintained upstream — left idle while its dependency and dev tree age"
+
+summary: >-
+  Converts between XML text and JavaScript objects / JSON in both directions.
+
+why-forked: >-
+  Abandoned upstream while carrying an outdated dependency and dev tree; forked
+  so Renovate keeps the tree current for consumers.
+
+status: active
+
+tags: [xml, json, converter, parser]
