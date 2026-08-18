@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.6.14](https://github.com/unabandoned/xml-js/compare/xml-js-v1.6.13...xml-js-v1.6.14) (2026-08-18)
+
+
+### Dependencies & maintenance
+
+* add .unabandoned.yml dashboard metadata ([#30](https://github.com/unabandoned/xml-js/issues/30)) ([38fc974](https://github.com/unabandoned/xml-js/commit/38fc9744b65cd9500f68d1c14b6a879c8e296524))
+* **deps:** update commitlint monorepo to v21.2.2 ([#34](https://github.com/unabandoned/xml-js/issues/34)) ([d23adb6](https://github.com/unabandoned/xml-js/commit/d23adb6fa74cd6b6a14ec1cf87b4b01ffc968677))
+* **deps:** update unabandoned/.github action to v1.0.1 ([#35](https://github.com/unabandoned/xml-js/issues/35)) ([d65a4bf](https://github.com/unabandoned/xml-js/commit/d65a4bfcdfde99d58d212bcb0ce4b8ad9c9c1c94))
+* **deps:** update unabandoned/.github digest to 88ce617 ([#29](https://github.com/unabandoned/xml-js/issues/29)) ([aea5ee3](https://github.com/unabandoned/xml-js/commit/aea5ee36acab4ad71a7a9442d1ca85e14173c14e))
+* pin reusable workflows to the @unabandoned/.github v1.0.0 release ([#33](https://github.com/unabandoned/xml-js/issues/33)) ([651de10](https://github.com/unabandoned/xml-js/commit/651de101e7e3239eabbcc9a92f1acc39e514109d))
+
 ## [1.6.13](https://github.com/unabandoned/xml-js/compare/xml-js-v1.6.12...xml-js-v1.6.13) (2026-08-13)
 
 
