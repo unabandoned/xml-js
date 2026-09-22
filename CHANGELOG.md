@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.6.15](https://github.com/unabandoned/xml-js/compare/xml-js-v1.6.14...xml-js-v1.6.15) (2026-09-22)
+
+
+### Dependencies & maintenance
+
+* **deps:** update node.js to fa271c4 ([#37](https://github.com/unabandoned/xml-js/issues/37)) ([4670c9e](https://github.com/unabandoned/xml-js/commit/4670c9ed0ff00faa3c8df0a1cdb841895c3240b2))
+* **deps:** update unabandoned/.github action to v1.0.4 ([#39](https://github.com/unabandoned/xml-js/issues/39)) ([84a44fb](https://github.com/unabandoned/xml-js/commit/84a44fb31f097170f5ea888c6171abc8cae49d6b))
+* **deps:** update unabandoned/.github action to v1.0.5 ([#40](https://github.com/unabandoned/xml-js/issues/40)) ([34f4fc8](https://github.com/unabandoned/xml-js/commit/34f4fc8ea53360940c1db4b4f8f91681e0f34170))
+* **deps:** update unabandoned/.github action to v1.1.0 ([#42](https://github.com/unabandoned/xml-js/issues/42)) ([a857610](https://github.com/unabandoned/xml-js/commit/a85761067744caffb9570d72bf3ee4df10feca33))
+
 ## [1.6.14](https://github.com/unabandoned/xml-js/compare/xml-js-v1.6.13...xml-js-v1.6.14) (2026-08-28)
 
 
