@@ -1,6 +1,14 @@
 {
   "name": "@unabandoned/xml-js",
   "version": "1.6.15",
+  "files": [
+    "CHANGELOG.md",
+    "index.js",
+    "lib",
+    "bin",
+    "types",
+    "dist"
+  ],
   "description": "A convertor between XML text and Javascript object / JSON text.",
   "repository": {
     "type": "git",
