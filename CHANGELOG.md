@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.16](https://github.com/unabandoned/xml-js/compare/xml-js-v1.6.15...xml-js-v1.6.16) (2026-09-23)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.3 ([#44](https://github.com/unabandoned/xml-js/issues/44)) ([6326a6c](https://github.com/unabandoned/xml-js/commit/6326a6c111b75a3cd7b36cdd796bd7de0bcdad8e))
+
 ## [1.6.15](https://github.com/unabandoned/xml-js/compare/xml-js-v1.6.14...xml-js-v1.6.15) (2026-09-22)
 
 
